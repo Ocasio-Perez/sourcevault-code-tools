@@ -1,5 +1,7 @@
 # sourcevault-code-tools
 
+![tests](https://github.com/Ocasio-Perez/sourcevault-code-tools/actions/workflows/test.yml/badge.svg)
+
 A [Hermes Agent](https://github.com/nousresearch/hermes-agent) plugin that
 gives Hermes **persistent, private memory of your codebases** — semantic code
 search, exact file reads, and grounded repo Q&A with file-and-line citations.
