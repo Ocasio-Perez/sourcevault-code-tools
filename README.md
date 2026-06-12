@@ -9,7 +9,7 @@ Everything runs on your machine over localhost; no source code leaves it.
 
 Works in Hermes CLI, Telegram, and Hermes Desktop.
 
-![SourceVault answering a question and opening the cited source file](demo.gif)
+![Hermes /code-ask answering a question about a private repo with file-and-line citations](demo.gif)
 
 ```text
 /code_ask my-api "Where do we validate JWTs, and what happens on expiry?"
