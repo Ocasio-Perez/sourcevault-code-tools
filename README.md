@@ -45,9 +45,12 @@ aliases for Hermes Tool Search discoverability.
 ## Requires a SourceVault backend
 
 This plugin is the Hermes-side client. Indexing, embeddings (Ollama +
-nomic-embed-text), the vector store (ChromaDB), hybrid retrieval, and the
-signed API are provided by **SourceVault**, a local-first private code-memory
-server. The plugin is useless without it.
+nomic-embed-text), the vector store (ChromaDB), and the signed API are
+provided by **SourceVault**, a local-first private code-memory server — the
+plugin is useless without it. The server's retrieval engine does the heavy
+lifting behind every answer: hybrid search with cross-encoder reranking,
+symbol-graph context, git-history answers ("why was this changed?"), and
+benchmark-verified grounding (see trysourcevault.com/benchmark/).
 
 Get SourceVault (done-for-you private install, no per-seat fees):
 **<https://trysourcevault.com>**
