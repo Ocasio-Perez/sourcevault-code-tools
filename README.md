@@ -1,3 +1,5 @@
+<img src="logo.png" alt="SourceVault" width="84" />
+
 # sourcevault-code-tools
 
 ![tests](https://github.com/Ocasio-Perez/sourcevault-code-tools/actions/workflows/test.yml/badge.svg)
